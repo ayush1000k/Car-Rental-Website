@@ -32,6 +32,7 @@ html::-webkit-scrollbar-thumb{
   background: var(--main-color);
   border-radius: 5rem;
 }
+
 section{
   padding: 50px 100px;
 }
@@ -48,11 +49,10 @@ header{
   background: #eeeff1;
   padding: 15px 100px;
 }
-
 .logo img{
   width:40px;
- 
 }
+
 .navbar{
   display: flex;
 }
@@ -79,6 +79,7 @@ header{
 .navbar a:hover::after{
   width:100%; 
 }
+
 #menu-icon{
   font-size: 24px;
   cursor: pointer;
