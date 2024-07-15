@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login to HaveAride</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --main-color:#6400e4;
+            --box-shadow:0px 3px 5px 0px rgba(0,0,0,0.34);
+            --hover-shadow:0px 4px 4px 0px rgba(3,3,3,0.561);
+            --nav-shadow:0px 0px 10px 0px rgba(0,0,0,0.100);
+            --light-black:#141c3a;
+        }
+
+        body{
+            font-family:"Poppins","sans-serif";
+        }
+
+        .container{
+            padding: 30px;
+            width:20rem;
+            margin: 20px auto;  
+        }
+
+        form{
+            display:flex;
+            flex-direction: column;
+            margin: 30px 0;
+        }
+
+        form label{
+            margin:5px 0;
+        }
+
+        form input[type="text"],input[type="password"] {
+            height:3rem;
+            margin:5px 0;
+            border:0.5px solid #b8b8b85d;
+            border-radius: 3px;
+            padding:0 15px;
+            font-size: 20px;
+            font-family: "Nunito", "sans-serif";
+        }
+
+        form a{
+            margin:10px 0;
+            text-decoration: none;
+            color:var(--main-color);
+            font-weight:bold;
+        }
+
+        form input[type="submit"] {
+            height:50px;
+            background:var(--main-color);
+            font-size: 20px;
+            font-family: "Nunito" , "sans-serif";
+            border:none;
+            border-radius:5px;
+            color:white;
+            box-shadow: var(--box-shadow);
+            cursor:pointer;
+        }
+
+        form input[type="submit"]:hover{
+            box-shadow:var(--hover-shadow);
+            transform:translateY(-3px);
+        }
+
+        .footer h3{
+            font-size:16px;
+            opacity:0.9;
+        }
+
+        .footer .images{
+            display:flex;
+            align-items:center;
+            height:10vh;
+            justify-content: space-around;
+            margin:15px;
+        }
+
+        .footer .images img{
+            width:2rem;
+            border:1px solid #e7e7e7;
+            padding:5px;
+            border-radius: 3px;
+            transition:0.3s ease;
+        }
+
+        .footer .images img:hover{
+            box-shadow:var(--box-shadow);
+            cursor:pointer;
+        }
+
+        .footer a{
+            float: right;
+            color:var(--main-color); 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="header">
+            <h1>Enter to login</h1>
+        </div>
+       
+        <form action="">
+            <label for="" >Email or Username</label>
+            <input type="text" name="" id="" required
+
+            <label for="">Password</label>
+            <input type="password" name="" id="" required>
+
+            <a href="#"> I forgot my password</a>
+
+            <input type="submit" value="log in">
+        </form>
+    
+        <div class="footer">
+            <h3>Login with another account</h3>
+            <div class="images">
+                <img src="img/google logo.png" alt="">
+                <img src="img/facebook logo.png" alt="">
+                <img src="img/linkedin logo.png" alt="">
+            </div>
+            <a href="#" style="font-weight:600; "onclick="
+                window.location.href = 'signinform.html';
+            "> Create a New account </a>
+        </div>
+    </div> 
+</body>
+</html>
