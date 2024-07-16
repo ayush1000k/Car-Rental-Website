@@ -1,4 +1,4 @@
-# Car-Rental-Website
+# Car-Rental-Platform
 <img src="img/README-img.PNG"> <br><br>
 Special Features:<br>
 1. Smooth Scroll  <br> 
